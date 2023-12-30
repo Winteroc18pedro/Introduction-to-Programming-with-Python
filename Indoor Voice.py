@@ -4,7 +4,7 @@ Created on Sat Dec 30 16:33:52 2023
 
 @author: pedro
 """
-
+#This program prompts the user for input and then outputs that same input in lowercase.
 
 def say_something():
     print(input("What do you want to say? ").lower())
