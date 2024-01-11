@@ -11,7 +11,7 @@ def cost_of_the_meal():
 
 def percentage():
     percent = int(input("How much would you like to tip in percentage? "))
-    return percent/100 #Decimal representation of percent.
+    return percent/100 #Decimal representation of percentage
 
 def main():
     price = cost_of_the_meal()
