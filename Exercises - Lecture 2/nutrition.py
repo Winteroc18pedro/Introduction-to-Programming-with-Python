@@ -5,7 +5,7 @@ Created on Tue Jul 30 10:08:47 2024
 @author: NB30006
 """
 
-#Write a program that shows the nutrition facts for the 20 most popular 
+#Write a program that shows the nutrition facts for the 19 most popular 
 #fruits. It prompts the user to input a fruit and outputs the number of calories
 #in that fruit
 
