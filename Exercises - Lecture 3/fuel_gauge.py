@@ -16,6 +16,9 @@ Created on Tue Jul 30 16:47:06 2024
 def fraction(x, y):
     return (x/y) * 100
 
+def fraction(x, y):
+    return (x/y) * 100
+
 def main():
     while True:
         try:
@@ -24,7 +27,7 @@ def main():
            if y == 0:
                print("y cannot be zero")
            elif x > y:
-               print("x cannot be greater than zero")
+               print("x cannot be greater than y")
                continue
            percentage = round(fraction(x,y))
            if percentage < 1:
@@ -32,13 +35,11 @@ def main():
            elif percentage > 99:
                print("F")
            else:
-               print(f"{percentage}%")
-           break
+               break
         except ValueError:
             print("That's not an integer. Try again")
-        
+    print(f"{percentage}%")
 
-        
 main()
 
 
