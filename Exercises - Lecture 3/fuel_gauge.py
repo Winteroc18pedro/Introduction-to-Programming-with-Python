@@ -35,7 +35,7 @@ def main():
            elif percentage > 99:
                print("F")
            else:
-               break
+               break #It will only break out of the loop if it does not detect any error
         except ValueError:
             print("That's not an integer. Try again")
     print(f"{percentage}%")
